@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecânica Alguma Coisa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- navbar/cabeçalho -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Mecânica Alguma Coisa</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="serviços.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="equipe.html">Equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Carrossel principal, a que ficará embaixo do navbar -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner rounded-4 shadow-sm">
+        <div class="carousel-item active">
+            <img src="img/foto1.jpg" class="d-block w-100" alt="Imagem 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Bem-vindo!</h5>
+                <p>Qualidade e excelência em cada trabalho, querendo entregar o melhor para nosso cliente!</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="img/foto2.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+
+        <div class="carousel-item">
+            <img src="img/foto3.png" class="d-block w-100" alt="Imagem 3">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button"
+        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button"
+        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+    <!-- Sobre -->
+    <section id="sobre" class="container py-5">
+        <h2 class="mb-4 text-center fw-bold">Sobre Nós</h2>
+        <p class="text-center mb-5 fs-5">A nossa mecânica, localizada em Brasília, nasceu com o objetivo de oferecer um serviço honesto, rápido e de qualidade para quem precisa cuidar do carro com segurança e confiança. Cada veículo é tratado com atenção, e nossa equipe é formada por profissionais experientes, apaixonados por mecânica e sempre atualizados com as novas tecnologias</p>
+
+        <div class="accordion shadow-lg rounded-3 overflow-hidden" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">Nossa História</button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">Em Brasília, na Asa Norte, existe uma oficina chamada Mecânica Alguma Coisa. Diferente das grandes redes, ali cada carro recebe atenção quase como se fosse de família. Fundada pelo Raimundo do Nascimento, um engenheiro que largou a sua vida passada para se dedicar à paixão por motores, a oficina logo ganhou fama por resolver problemas que outros mecânicos desistiam.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Missão</button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">Trabalhar com transparência total, explicando cada etapa do serviço para que você saiba exatamente o que está sendo feito, além de, valorizar o bom atendimento, preços justos e um ambiente organizado, preparado para receber você da melhor forma possível!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="serviços" class="container py-5 bg-light rounded-3 mt-4">
+        <h2 class="mb-4 text-center fw-bold">Serviços</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-lg border-0 h-100 text-center p-4">
+                    <h5 class="fw-bold">Câmbio automático</h5>
+                    <p class="text-muted">Realizamos a manutenção de cambios automáticos</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg border-0 h-100 text-center p-4">
+                    <h5 class="fw-bold">Mecânica</h5>
+                    <p class="text-muted">Realizamos qualquer serviços mecânico para seu automóvel</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg border-0 h-100 text-center p-4">
+                    <h5 class="fw-bold">Lanternagem</h5>
+                    <p class="text-muted">Realizamos a lanternagem de qualquer automóvel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos - também carrossel -->
+    <section class="container py-5">
+        <h2 class="mb-4 text-center fw-bold">Depoimentos</h2>
+        <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="img/depoimento1.jpg" class="rounded-circle" width="200">
+                    <p class="mt-4 fs-5">“Excelente atendimento.”</p>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/depoimento2.jpg" class="rounded-circle" width="200">
+                    <p class="mt-4 fs-5">“Serviço impecável. Recomendo!”</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contatos - Questionário simples -->
+    <section id="contato" class="container py-5">
+        <h2 class="mb-3">Contato</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nome</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Mensagem</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <button class="btn btn-primary">Enviar</button>
+        </form>
+
+        <!-- Mapa -->
+        <div class="mt-4">
+            <h5>Localização</h5>
+            <iframe src="assets/mapa.html" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+        <p>Siga-nos:</p>
+        <a href="https://www.instagram.com" class="text-light mx-2"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com" class="text-light mx-2"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://web.whatsapp.com" class="text-light mx-2"><i class="fa-brands fa-whatsapp"></i></a>
+        <p class="mt-2">© 2025 Mecânica Alguma Coisa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
